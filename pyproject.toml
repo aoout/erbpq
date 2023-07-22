@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "erbpq"
+version = "0.1.0"
+description = "Try to develop an epub reader using pyqt."
+authors = ["aoout <wuz66280@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fire = "^0.5.0"
+pyqt5 = "^5.15.9"
+bs4 = "^0.0.1"
+xmltodict = "^0.13.0"
+pyqt5-frameless-window = "^0.2.8"
+
+[tool.poetry.scripts]
+ereader = "erbpq.__init__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
