@@ -12,3 +12,5 @@ Try to develop an epub reader using pyqt.
 - [ ] search support
 - [ ] highlight support
 - [ ] hotkeys support
+- [ ] book history
+- [ ] reading progress recovery
