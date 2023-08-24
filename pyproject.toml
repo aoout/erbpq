@@ -14,7 +14,7 @@ xmltodict = "^0.13.0"
 pyqt5-frameless-window = "^0.2.8"
 
 [tool.poetry.scripts]
-ereader = "erbpq.__init__:main"
+erbpq = "erbpq.__init__:main"
 
 [build-system]
 requires = ["poetry-core"]
