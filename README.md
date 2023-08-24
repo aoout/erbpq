@@ -2,11 +2,18 @@
 
 Try to develop an epub reader using pyqt.
 
-# ScreenShot
+## ScreenShot
 
 ![](assets/screenshot01.png)
 
-# RoadMap
+## Usage
+
+```
+pip install git+https://github.com/aoout/erbpq.git@main -U
+erbpq .\xxx.epub
+```
+
+## RoadMap
 
 - [ ] section `click&&jump in`  support
 - [ ] search support
